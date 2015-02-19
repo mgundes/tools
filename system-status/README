@@ -1,0 +1,51 @@
+
+TODOs
+-----
+
+* Gather datas below:
+
+    - package status
+              * number of packages installed
+              * package dependency status
+              * packages not configured
+              * downloaded deb packages total size
+              * is there any package upgradeable
+
+    - process status
+              * number of kernel and user space process running
+              * 3 processes use most cpu and ram
+              * 3 processes open most files
+              * processes have highest and lowest priority
+              * is there a zombie process
+
+    - network
+              * total bandwith used
+              * number of client/server sockets
+              * number of ports open
+
+    - disk
+              * total disk usage
+              * files bigger than 500 MB
+              * inode number usage percentage
+
+    - memory
+              * used memory
+              * cached and buffered memory
+              * swap memory and usage status
+
+    - system
+             * total physical memory
+             * total disk size
+             * uptime
+             * current load
+             * distribution name
+             * kernel version
+
+    - users
+             * number of users who can login
+             * last created user
+             * logged in users, loggin times
+             * login failed attempts, especially root
+             * disk usages for logins
+
+* Send email
