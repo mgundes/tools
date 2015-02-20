@@ -5,11 +5,10 @@ TODOs
 * Gather datas below:
 
     - package status
-              * number of packages installed
-              * package dependency status
-              * packages not configured
-              * downloaded deb packages total size
-              * is there any package upgradeable
+              * number of packages installed +
+              * package dependency status +
+              * packages not configured +
+              * downloaded deb packages total size +
 
     - process status
               * number of kernel and user space process running
