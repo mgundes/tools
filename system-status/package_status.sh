@@ -51,10 +51,12 @@ f_package_downloaded_deb_size() {
     echo
 }
 
-f_package_installed
-f_package_state_anomaly
-f_package_state_notconfigured
-f_package_downloaded_deb_size
+f_package_status() {
 
+    f_package_installed
+    f_package_state_anomaly
+    f_package_state_notconfigured
+    f_package_downloaded_deb_size
+}
 
 
